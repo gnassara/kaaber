@@ -19,6 +19,10 @@ body {
 
 }
 
+section h3 {
+    text-align: center;
+}
+
 .navbar__nav {
     display: flex;
     align-items: center;
@@ -94,4 +98,18 @@ padding: 15 px 60px;
 }
 .bg-blue-second {
     background-color: #025F94;
+}
+
+button{
+padding: 12px 30px;
+background-color: #07B0F2;
+font-weight: 700px;
+color: aliceblue;
+
+}
+
+footer {
+    padding: 10px 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
