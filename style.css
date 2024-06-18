@@ -69,6 +69,7 @@ padding: 15px 60px ;
     padding: 12px;
     text-align: center;
     justify-content: center;
+    border: 2px solid #599dc5;
 }
 
 .main__section__container{
@@ -86,6 +87,8 @@ padding: 15 px 60px;
     align-items: center;
     padding: 12px;
     text-align: center;
+    border: 2px solid #F3F4F8
+    ;
 }
 
 .main__section__container__card > img {
@@ -108,8 +111,25 @@ color: aliceblue;
 
 }
 
+button:hover{
+    background-color: #2a87ac;
+
+}
+
+.navbar {
+background-color: #ffff;
+position: sticky;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 10000;
+}
+
 footer {
     padding: 10px 60px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+   
+
 }
+
